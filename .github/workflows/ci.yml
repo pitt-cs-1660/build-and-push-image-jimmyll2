@@ -38,7 +38,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: us-central1-docker.pkg.dev/cloud-1660/cicd
+          tags: us-central1-docker.pkg.dev/cloud-1660/cicd/node-demo:v1
 
 # @note: you can use regular docker commands instead of the shared action
 #      - name: Build and Push Without Buildx

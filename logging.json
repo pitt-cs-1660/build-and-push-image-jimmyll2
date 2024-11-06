@@ -1,0 +1,384 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid WorkloadIdentityPool ID. It can only consist of digits [0-9], lowercase characters [a-z], dashes [-], and must be between 4 and 32 characters in length."
+      },
+      "authenticationInfo": {
+        "principalEmail": "jimmylining0212@gmail.com",
+        "principalSubject": "user:jimmylining0212@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.137.244",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/c770238f13564f71bb4b64a50436886f environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-06T21:14:36.636258299Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/cloud-1660/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/cloud-1660/locations/global",
+      "request": {
+        "workloadIdentityPoolId": "github 2",
+        "workloadIdentityPool": {
+          "disabled": false,
+          "displayName": "GitHub Actions Pool second"
+        },
+        "parent": "projects/cloud-1660/locations/global",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1xxciare108ui",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "cloud-1660",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-11-06T21:14:36.626627349Z",
+    "severity": "ERROR",
+    "logName": "projects/cloud-1660/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-06T21:14:37.370246982Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid WorkloadIdentityPool ID. It can only consist of digits [0-9], lowercase characters [a-z], dashes [-], and must be between 4 and 32 characters in length."
+      },
+      "authenticationInfo": {
+        "principalEmail": "jimmylining0212@gmail.com",
+        "principalSubject": "user:jimmylining0212@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.137.244",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/de8e6bf909c94899b515a452f0b051fa environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-06T21:14:59.044063628Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/cloud-1660/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/cloud-1660/locations/global",
+      "request": {
+        "workloadIdentityPool": {
+          "disabled": false,
+          "displayName": "GitHub Actions Pool second"
+        },
+        "parent": "projects/cloud-1660/locations/global",
+        "workloadIdentityPoolId": "github_2",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1jt1t61dzdc7",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "cloud-1660",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-11-06T21:14:59.027863938Z",
+    "severity": "ERROR",
+    "logName": "projects/cloud-1660/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-06T21:14:59.741100929Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jimmylining0212@gmail.com",
+        "principalSubject": "user:jimmylining0212@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.137.244",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/dd9560505b1e4b87a079264e9de3d75d environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-06T21:15:14.571246955Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/cloud-1660/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/cloud-1660/locations/global",
+      "request": {
+        "parent": "projects/cloud-1660/locations/global",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "workloadIdentityPoolId": "github-2",
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Pool second",
+          "disabled": false
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1y90j3pdzzuw",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "cloud-1660",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-06T21:15:14.555745916Z",
+    "severity": "NOTICE",
+    "logName": "projects/cloud-1660/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1004128498162/locations/global/workloadIdentityPools/github-2/operations/bifqry5yv64qmeha57gdq00000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-06T21:15:15.888084694Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jimmylining0212@gmail.com",
+        "principalSubject": "user:jimmylining0212@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/cloud-1660/locations/global",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/1004128498162/locations/global/workloadIdentityPools/github-2/operations/bifqry5yv64qmeha57gdq00000000000"
+      }
+    },
+    "insertId": "-r5rvktd29pp",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "cloud-1660",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-11-06T21:15:15.119359Z",
+    "severity": "NOTICE",
+    "logName": "projects/cloud-1660/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1004128498162/locations/global/workloadIdentityPools/github-2/operations/bifqry5yv64qmeha57gdq00000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-06T21:15:15.181582412Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jimmylining0212@gmail.com",
+        "principalSubject": "user:jimmylining0212@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.137.244",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/ff51da0bdc5449eb81bd19963f113253 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-06T21:17:53.422139316Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/cloud-1660/locations/global/workloadIdentityPools/github-2",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/cloud-1660/locations/global/workloadIdentityPools/github-2",
+      "request": {
+        "workloadIdentityPoolProviderId": "my-repo-2",
+        "workloadIdentityPoolProvider": {
+          "displayName": "My GitHub repo Provider-2",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeMapping": {
+            "attribute.repository_owner": "assertion.repository_owner",
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository"
+          },
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660'",
+          "disabled": false
+        },
+        "parent": "projects/cloud-1660/locations/global/workloadIdentityPools/github-2",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "qo5xghdzzr0",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "cloud-1660",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-11-06T21:17:53.403364807Z",
+    "severity": "NOTICE",
+    "logName": "projects/cloud-1660/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1004128498162/locations/global/workloadIdentityPools/github-2/providers/my-repo-2/operations/bigaran2v64qmeeyu2llgaq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-11-06T21:17:54.493055235Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jimmylining0212@gmail.com",
+        "principalSubject": "user:jimmylining0212@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/cloud-1660/locations/global/workloadIdentityPools/github-2",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/1004128498162/locations/global/workloadIdentityPools/github-2/providers/my-repo-2/operations/bigaran2v64qmeeyu2llgaq000000000"
+      }
+    },
+    "insertId": "7ir8h8d2iqd",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "cloud-1660",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-06T21:17:53.644807Z",
+    "severity": "NOTICE",
+    "logName": "projects/cloud-1660/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/1004128498162/locations/global/workloadIdentityPools/github-2/providers/my-repo-2/operations/bigaran2v64qmeeyu2llgaq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-11-06T21:17:54.231252879Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "jimmylining0212@gmail.com",
+        "principalSubject": "user:jimmylining0212@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.137.244",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/848a3633826f491e8ad29ebbade6af86 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-06T21:43:10.020450284Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/cloud-1660/locations/us-central1/repositories/cicd",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/cloud-1660/locations/us-central1/repositories/cicd",
+      "request": {
+        "resource": "projects/cloud-1660/locations/us-central1/repositories/cicd",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "vdra7zcvf2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "cloud-1660"
+      }
+    },
+    "timestamp": "2024-11-06T21:43:10.013476194Z",
+    "severity": "NOTICE",
+    "logName": "projects/cloud-1660/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-06T21:43:10.326280749Z"
+  }
+]
